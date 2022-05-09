@@ -1,18 +1,34 @@
+<script>
+import axios from "axios";
+export default {
+  data: function () {
+    return {
+      items: [],
+      search: "",
+    };
+  },
+  methods: {
+    newSearch: function () {
+      console.log('new search...')
+      axios.get(`/items.json?search_term=${this.search}`).then(response => {
+        console.log(response.data)
+        this.items = response.data;
+      })
+    }
+  },
+};
+</script>
+
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  Search: <input type="text" v-model="search">
+  <button v-on:click="newSearch()">New Search</button>
+
+  <div v-for="item in items" v-bind:key="item.name">
+    {{ item.id }}: {{ item.name }}
   </div>
+
 </template>
 
-<script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
-export default {
-  name: 'HomeView',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+<style>
+</style>
