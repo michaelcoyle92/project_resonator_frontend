@@ -49,7 +49,7 @@ export default {
     <p>year: {{ item.year }} </p>
     <p>description: {{ item.description }} </p>
     <p>category_id: {{ item.category_id }} </p>
-    <p>images: {{ item.images.url }} </p>
+    <p>image: {{ item.images.url }} </p>
     <img v-bind:src="item.images">
     <p>user_id: {{ item.user_id }} </p>
     <a href="/items">All items</a>
