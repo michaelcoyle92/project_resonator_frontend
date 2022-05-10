@@ -41,6 +41,16 @@ const routes = [
     component: () => import('../views/AboutView.vue')
   },
   {
+    path: '/blog',
+    name: 'blog',
+    component: () => import('../views/BlogView.vue')
+  },
+  {
+    path: '/contact',
+    name: 'contact',
+    component: () => import('../views/ContactView.vue')
+  },
+  {
     path: '/nopage',
     name: 'Nopage',
     component: () => import('../views/NoPage.vue')
