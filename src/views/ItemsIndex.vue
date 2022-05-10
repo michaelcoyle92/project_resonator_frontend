@@ -26,7 +26,7 @@ export default {
     <h1>All Guitars</h1>
     <div v-for="item in items" v-bind:key="item.id">
       <h2>{{ item.name }}</h2>
-      <img v-bind:src="item.images" v-bind:alt="item.name" />
+      <img v-bind:src="item.image" v-bind:alt="item.name" />
       <p>Manufacturer: {{ item.manufacturer }}</p>
       <p>Year Produced: {{ item.year }}</p>
 
