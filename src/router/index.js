@@ -3,6 +3,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 
 
+
 const routes = [
   {
     path: '/',
@@ -29,7 +30,6 @@ const routes = [
     name: 'items-show',
     component: () => import('../views/ItemsShow.vue')
   },
-
   {
     path: '/logout',
     name: 'logout',
