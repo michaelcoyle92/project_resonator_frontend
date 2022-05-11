@@ -9,6 +9,7 @@ export default {
       item: {}
     };
   },
+
   created: function () {
     this.showItem();
   },
@@ -54,10 +55,6 @@ export default {
     <p>user_id: {{ item.user_id }} </p>
     <a href="/items">All items</a>
     <hr />
-
-
   </div>
 </template>
 
-<style>
-</style>

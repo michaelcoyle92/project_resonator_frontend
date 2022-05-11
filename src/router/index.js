@@ -51,6 +51,11 @@ const routes = [
     component: () => import('../views/ContactView.vue')
   },
   {
+    path: '/reverb',
+    name: 'reverb',
+    component: () => import('../views/ReverbView.vue')
+  },
+  {
     path: '/nopage',
     name: 'Nopage',
     component: () => import('../views/NoPage.vue')
