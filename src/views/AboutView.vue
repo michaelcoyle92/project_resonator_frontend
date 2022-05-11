@@ -42,7 +42,7 @@ export default {
     <div class="container" data-aos="fade-up">
       <div class="row">
         <div class="col-md-12">
-          <h3 class="section-title">About Us</h3>
+          <h3 class="section-title">About Project Resonator</h3>
           <div class="section-title-divider"></div>
           <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
             doloremque laudantium, totam rem aperiam</p>
@@ -53,7 +53,7 @@ export default {
       <div class="row">
 
         <div class="col-lg-6 about-img">
-          <img src="assets/img/about-img.jpg" alt="">
+          <img src="assets/img/johnnybrown.jpg" alt="Blind Johnny Brown">
         </div>
 
         <div class="col-md-6 about-content">
