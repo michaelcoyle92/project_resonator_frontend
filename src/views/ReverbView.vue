@@ -1,4 +1,11 @@
 
+<template>
+  <div data-reverb-embed-handpicked data-reverb-collection-name="deals" data-reverb-search-per-page="10"
+    data-reverb-currency="USD"></div>
+</template>
+
+
+
 
 <style>
 .reverb-embedded-listings {
@@ -234,10 +241,7 @@ ul.reverb-embedded-comparison-shopping-pages-vertical .reverb-embedded-compariso
 <script type="text/javascript">
 function _RRR() { var e = document.createElement("script"); e.src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js", e.onload = function () { var e = document.createElement("script"); e.src = "https://static.reverb-assets.com/assets/webpack/reverb-embed.js", document.body.appendChild(e) }, document.body.appendChild(e) } window.addEventListener ? window.addEventListener("load", _RRR, !1) : window.attachEvent ? window.attachEvent("onload", _RRR) : window.onload = _RRR;
 
-<div data-reverb-embed-handpicked
-  data-reverb-collection-name="deals"
-  data-reverb-search-per-page="10"
-  data-reverb-currency="USD"></div>
+
 </script>
 
 
