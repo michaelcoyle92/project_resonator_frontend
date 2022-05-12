@@ -1,7 +1,9 @@
 
 <template>
-  <div data-reverb-embed-handpicked data-reverb-collection-name="deals" data-reverb-search-per-page="10"
-    data-reverb-currency="USD"></div>
+  <div data-reverb-embed-listings data-reverb-currency="USD" data-reverb-search-query=""
+    data-reverb-search-product-type="acoustic-guitars" data-reverb-search-price-max="35000"
+    data-reverb-search-price-min="100" data-reverb-search-year-max="" data-reverb-search-year-min=""
+    data-reverb-search-make="National" data-reverb-search-model="" data-reverb-search-per-page="3"></div>
 </template>
 
 
@@ -243,6 +245,8 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
 
 </script>
+
+
 
 
 

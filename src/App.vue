@@ -17,6 +17,8 @@ export default {
     }
   },
 };
+
+
 </script>
 
 <template>
@@ -44,6 +46,7 @@ export default {
     <input type="image" alt="Submit Search" src="http://i.imgur.com/Xqd1zPL.png?1"
       style="height: 32px; margin-bottom: -10px">
   </form>
+
 </template>
 
 <style>
