@@ -74,22 +74,20 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
             <div class="swiper-wrapper align-items-center">
 
               <div class="swiper-slide">
-                <img
-                  src="https://www.dreamguitars.com/shop/media/catalog/product/cache/1/thumbnail/540x720/17f82f742ffe127f42dca9de82fb58b1/i/m/image_full_4193.jpg"
-                  alt="">
+                <img v-bind:src="item.images.url">
               </div>
 
-              <div class="swiper-slide">
+              <!-- <div class="swiper-slide">
                 <img
                   src="https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/6354/60147/1__45220.1639698390.JPG?c=2"
                   alt="">
-              </div>
+              </div> -->
 
-              <div class="swiper-slide">
+              <!-- <div class="swiper-slide">
                 <img
                   src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaWeNXLAuoqXokezwtORvtk1M0qneGp1EWYOUTRvNy5HDpl58vjdUKolkUKIfkaZPykHQ&usqp=CAU"
                   alt="">
-              </div>
+              </div> -->
 
             </div>
             <div class="swiper-pagination"></div>
@@ -98,30 +96,17 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
         <div class="col-lg-4">
           <div class="portfolio-info">
-            <h3>Style 1 Tricone</h3>
+            <h3>{{ item.manufacturer }} {{ item.name }} </h3>
             <ul>
-              <li><strong>Category</strong>: Tricone</li>
-              <li><strong>Manfactuer</strong>: National String Instruments</li>
-              <li><strong>Year</strong>: 1927</li>
-              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+              <li><strong>Category</strong>: </li>
+              <li><strong>Manfactuer</strong>: {{ item.manufacturer }}</li>
+              <li><strong>Year</strong>: {{ item.year }}</li>
             </ul>
           </div>
           <div class="portfolio-description">
-            <h2>1927 National Style 1 Tricone</h2>
+            <h2>{{ item.year }} {{ item.manufacturer }} {{ item.name }}</h2>
             <p>
-              After coming across the new Hawaiian lapsteels, Los Angeles inventor John Dopyera decided to investigate
-              ways of amplifying the popular slide guitar sound. Once he saw a violin with an attatched amplifying
-              horn, Dopyera began to work on his inverted cone designs. Dopyera was assisted with his nephews Paul and
-              Carl Barth spinning the first aluminum diaphragms on wooden bucks. They first experimented with their
-              novel ampli-phonic design in a large walnut console instrument. Soon afterwards the first German silver
-              Hawaiian guitar was built by John and Rudolph Dopyera. This guitar, #101 was later modified with a
-              mahogany Spanish neck for regular guitar playing. George Beauchamp, Dopyera's business partner, had
-              suggested to Dopyera the need for a guitar loud enough to play a melody over brass and other wind
-              instruments. In 1927, National produced the first resonator instruments and sold them under their
-              National brand. They had metal bodies and a tricone resonator system, with three aluminium cones joined
-              by a T-shaped aluminium spider. This is the Style 1 tricone, a guitar with a unique chiming sound in
-              between the sustain of the spider bridges and the banjo like punch of the buscuit bridges. The oniginal
-              German Silver tricones are still frequently sought after by collectors.
+              {{ item.description }}
             </p>
           </div>
         </div>
@@ -138,7 +123,7 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
 
 
-  <div class="items-show">
+  <!-- <div class="items-show">
     <h1>{{ message }}</h1>
     <p>id: {{ item.id }} </p>
     <p>name: {{ item.name }} </p>
@@ -147,11 +132,11 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
     <p>description: {{ item.description }} </p>
     <p>category_id: {{ item.category_id }} </p>
     <p>image: {{ item.image }} </p>
-    <img v-bind:src="item.images">
+    <img v-bind:src="item.images.url">
     <p>user_id: {{ item.user_id }} </p>
     <a href="/items">All items</a>
     <hr />
-  </div>
+  </div> -->
   <div data-reverb-embed-listings data-reverb-currency="USD" data-reverb-search-query=""
     data-reverb-search-product-type="acoustic-guitars" data-reverb-search-price-max="35000"
     data-reverb-search-price-min="100" data-reverb-search-year-max="" data-reverb-search-year-min=""
