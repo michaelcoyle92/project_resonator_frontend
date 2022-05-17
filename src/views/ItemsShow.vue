@@ -49,6 +49,95 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 </script>
 
 <template>
+  <section id="breadcrumbs" class="breadcrumbs">
+    <div class="container">
+
+      <div class="d-flex justify-content-between align-items-center">
+        <h2>Guitars</h2>
+        <ol>
+          <li><a href="index.html">Home</a></li>
+          <li>Guitars</li>
+        </ol>
+      </div>
+
+    </div>
+  </section><!-- End Breadcrumbs -->
+
+  <!-- ======= Portfolio Details Section ======= -->
+  <section id="portfolio-details" class="portfolio-details">
+    <div class="container">
+
+      <div class="row gy-4">
+
+        <div class="col-lg-8">
+          <div class="portfolio-details-slider swiper">
+            <div class="swiper-wrapper align-items-center">
+
+              <div class="swiper-slide">
+                <img
+                  src="https://www.dreamguitars.com/shop/media/catalog/product/cache/1/thumbnail/540x720/17f82f742ffe127f42dca9de82fb58b1/i/m/image_full_4193.jpg"
+                  alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="https://cdn11.bigcommerce.com/s-dks6ju/images/stencil/1280x1280/products/6354/60147/1__45220.1639698390.JPG?c=2"
+                  alt="">
+              </div>
+
+              <div class="swiper-slide">
+                <img
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSaWeNXLAuoqXokezwtORvtk1M0qneGp1EWYOUTRvNy5HDpl58vjdUKolkUKIfkaZPykHQ&usqp=CAU"
+                  alt="">
+              </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="portfolio-info">
+            <h3>Style 1 Tricone</h3>
+            <ul>
+              <li><strong>Category</strong>: Tricone</li>
+              <li><strong>Manfactuer</strong>: National String Instruments</li>
+              <li><strong>Year</strong>: 1927</li>
+              <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
+            </ul>
+          </div>
+          <div class="portfolio-description">
+            <h2>1927 National Style 1 Tricone</h2>
+            <p>
+              After coming across the new Hawaiian lapsteels, Los Angeles inventor John Dopyera decided to investigate
+              ways of amplifying the popular slide guitar sound. Once he saw a violin with an attatched amplifying
+              horn, Dopyera began to work on his inverted cone designs. Dopyera was assisted with his nephews Paul and
+              Carl Barth spinning the first aluminum diaphragms on wooden bucks. They first experimented with their
+              novel ampli-phonic design in a large walnut console instrument. Soon afterwards the first German silver
+              Hawaiian guitar was built by John and Rudolph Dopyera. This guitar, #101 was later modified with a
+              mahogany Spanish neck for regular guitar playing. George Beauchamp, Dopyera's business partner, had
+              suggested to Dopyera the need for a guitar loud enough to play a melody over brass and other wind
+              instruments. In 1927, National produced the first resonator instruments and sold them under their
+              National brand. They had metal bodies and a tricone resonator system, with three aluminium cones joined
+              by a T-shaped aluminium spider. This is the Style 1 tricone, a guitar with a unique chiming sound in
+              between the sustain of the spider bridges and the banjo like punch of the buscuit bridges. The oniginal
+              German Silver tricones are still frequently sought after by collectors.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </section><!-- End Portfolio Details Section -->
+
+
+
   <div class="items-show">
     <h1>{{ message }}</h1>
     <p>id: {{ item.id }} </p>
@@ -58,7 +147,7 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
     <p>description: {{ item.description }} </p>
     <p>category_id: {{ item.category_id }} </p>
     <p>image: {{ item.image }} </p>
-    <img v-bind:src="item.images[0]">
+    <img v-bind:src="item.images">
     <p>user_id: {{ item.user_id }} </p>
     <a href="/items">All items</a>
     <hr />
@@ -305,4 +394,6 @@ ul.reverb-embedded-comparison-shopping-pages-vertical .reverb-embedded-compariso
   overflow: hidden;
 }
 </style>
+
+
 
