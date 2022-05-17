@@ -46,11 +46,6 @@ const routes = [
     component: () => import('../views/BlogView.vue')
   },
   {
-    path: '/contact',
-    name: 'contact',
-    component: () => import('../views/ContactView.vue')
-  },
-  {
     path: '/reverb',
     name: 'reverb',
     component: () => import('../views/ReverbView.vue')
