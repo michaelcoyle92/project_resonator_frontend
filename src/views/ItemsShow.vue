@@ -46,6 +46,8 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
 
 
+
+
 </script>
 
 <template>
@@ -98,6 +100,9 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
   </head>
+  <!-- <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a> -->
 
   <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
@@ -119,21 +124,18 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
       <div class="row gy-4">
 
-        <div class="col-lg-8">
+        <div class="col-lg-6">
           <div class="portfolio-details-slider swiper">
             <div class="swiper-wrapper align-items-center">
 
-              <div class="swiper-slide">
-                <img v-bind:src="item.images1.url">
-                <img v-bind:src="item.images2.url">
-              </div>
-
-              <!-- <div class="swiper-slide">
-                <img v-bind:src="item.images3.url">
-              </div> -->
+              <div class="swiper-slide"><img v-bind:src="item.images1.url"></div>
+              <div class="swiper-slide"><img v-bind:src="item.images2.url"></div>
+              <div class="swiper-slide"><img v-bind:src="item.images3.url"></div>
 
             </div>
-            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
           </div>
         </div>
 
@@ -158,6 +160,20 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
     </div>
 
+    <div data-reverb-embed-listings data-reverb-currency="USD" data-reverb-search-query=""
+      data-reverb-search-product-type="resonators" data-reverb-search-price-max="35000"
+      data-reverb-search-price-min="100" data-reverb-search-year-max="" data-reverb-search-year-min=""
+      data-reverb-search-make="National" data-reverb-search-model="" data-reverb-search-per-page="6">
+    </div>
+
+    <!-- <div id="preloader">
+      <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
+    </div>
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+        class="bi bi-arrow-up-short"></i></a> -->
+
+
+
 
 
 
@@ -180,10 +196,7 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
     <a href="/items">All items</a>
     <hr />
   </div> -->
-  <div data-reverb-embed-listings data-reverb-currency="USD" data-reverb-search-query=""
-    data-reverb-search-product-type="acoustic-guitars" data-reverb-search-price-max="35000"
-    data-reverb-search-price-min="100" data-reverb-search-year-max="" data-reverb-search-year-min=""
-    data-reverb-search-make="National" data-reverb-search-model="" data-reverb-search-per-page="3"></div>
+
 
 
 

@@ -27,7 +27,7 @@ export default {
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo mr-auto"><img src="assets/img/logo3.png" alt=""></a>
+      <a href="/" class="logo mr-auto"><img src="assets/img/logo3.png" alt=""></a>
       <!-- Uncomment below if you prefer to use a text logo -->
       <!-- <h1 class="logo mr-auto"><a href="index.html">Project Resonator</a></h1> -->
 
