@@ -11,10 +11,10 @@ export default {
     this.indexItems();
   },
   methods: {
-    indexItem: function () {
+    indexItems: function () {
       axios.get("/items.json").then((response) => {
-        console.log(response.data);
-        this.item = response.data;
+        console.log("items index", response);
+        this.items = response.data;
       });
     },
   },
@@ -22,6 +22,20 @@ export default {
 </script>
 
 <template>
+
+  <div></div>
+
+  <div class="items-index">
+    <h1>All Guitars</h1>
+    <div v-for="item in items" v-bind:key="item.id">
+      <h2>{{ item.name }}</h2>
+      <img v-bind:src="item.images" v-bind:alt="item.name" />
+      <p>Manufacturer: {{ item.manufacturer }}</p>
+      <p>Year Produced: {{ item.year }}</p>
+
+      <router-link v-bind:to="`/items/${item.id}`">More details</router-link>
+    </div>
+  </div>
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio">
@@ -151,17 +165,7 @@ export default {
     </div>
   </section><!-- End Portfolio Section -->
 
-  <div class="items-index">
-    <h1>All Guitars</h1>
-    <div v-for="item in items" v-bind:key="item.id">
-      <h2>{{ item.name }}</h2>
-      <img v-bind:src="item.image" v-bind:alt="item.name" />
-      <p>Manufacturer: {{ item.manufacturer }}</p>
-      <p>Year Produced: {{ item.year }}</p>
 
-      <router-link v-bind:to="`/items/${item.id}`">More details</router-link>
-    </div>
-  </div>
 </template>
 
 <style>
