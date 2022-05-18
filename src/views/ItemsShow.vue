@@ -147,7 +147,7 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
           <div class="portfolio-info">
             <h3>{{ item.manufacturer }} {{ item.name }} </h3>
             <ul>
-              <li><strong>Category</strong>: </li>
+              <li><strong>Category</strong>: Roundneck </li>
               <li><strong>Manfactuer</strong>: {{ item.manufacturer }}</li>
               <li><strong>Year</strong>: {{ item.year }}</li>
             </ul>
@@ -170,6 +170,8 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
       data-reverb-search-make="National" data-reverb-search-model="" data-reverb-search-per-page="6">
     </div>
 
+
+
     <!-- <div id="preloader">
       <script src="/assets/vendor/swiper/swiper-bundle.min.js"></script>
     </div>
@@ -178,6 +180,11 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
   </section>
   <!-- End Portfolio Details Section -->
+
+  <section class='comments' aria-labelledby="comment">
+    <h2 id="comment">Comments</h2>
+    <Disqus />
+  </section>
 
 
 

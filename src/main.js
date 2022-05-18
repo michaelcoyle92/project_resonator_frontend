@@ -5,6 +5,8 @@ import router from './router'
 import axios from "axios";
 import "bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import VueDisqus from 'vue-disqus'
+
 
 
 
@@ -17,4 +19,4 @@ if (jwt) {
   axios.defaults.headers.common["Authorization"] = `Bearer ${jwt}`;
 }
 
-createApp(App).use(router).mount('#app')
+createApp(App).use(router, VueDisqus, { shortname: 'projectresonator' }).mount('#app')
