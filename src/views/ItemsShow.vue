@@ -47,7 +47,6 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
 
 
-
 </script>
 
 <template>
@@ -106,7 +105,10 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
 
   <section id="breadcrumbs" class="breadcrumbs">
     <div class="container">
-
+      <br>
+      <br>
+      <br>
+      <br>
       <div class="d-flex justify-content-between align-items-center">
         <h2>Guitars</h2>
         <ol>
@@ -128,9 +130,11 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
           <div class="portfolio-details-slider swiper">
             <div class="swiper-wrapper align-items-center">
 
+
+
               <div class="swiper-slide"><img v-bind:src="item.images1.url"></div>
               <div class="swiper-slide"><img v-bind:src="item.images2.url"></div>
-              <div class="swiper-slide"><img v-bind:src="item.images3.url"></div>
+              <!-- <div class="swiper-slide"><img v-bind:src="item.images3.url"></div> -->
 
             </div>
 
@@ -172,13 +176,11 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
         class="bi bi-arrow-up-short"></i></a> -->
 
+  </section>
+  <!-- End Portfolio Details Section -->
 
 
 
-
-
-
-  </section><!-- End Portfolio Details Section -->
 
 
 

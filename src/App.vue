@@ -36,7 +36,7 @@ export default {
           <li><a class="nav-link scrollto active" href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Guitars</a></li>
+          <li><a class="nav-link scrollto " href="/items">Guitars</a></li>
           <li><a class="nav-link scrollto" href="#testimonials">Blog</a></li>
           <li><a class="nav-link scrollto" href="#team">Team</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
