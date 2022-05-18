@@ -44,8 +44,7 @@ export default {
         <div class="col-md-12">
           <h3 class="section-title">About Project Resonator</h3>
           <div class="section-title-divider"></div>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-            doloremque laudantium, totam rem aperiam</p>
+          <p class="section-description">Yes, those metal things</p>
         </div>
       </div>
     </div>
@@ -57,23 +56,15 @@ export default {
         </div>
 
         <div class="col-md-6 about-content">
-          <h2 class="about-title">We provide great services and ideass</h2>
+          <h2 class="about-title">We like Resonators</h2>
           <p class="about-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat. Duis aute irure dolor
-            in reprehenderit in voluptate
+            We post lots of things
           </p>
           <p class="about-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim
-            id est laborum
+            In many ways
           </p>
           <p class="about-text">
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt molli.
+            Check it out
           </p>
         </div>
       </div>

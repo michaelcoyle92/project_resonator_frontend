@@ -108,7 +108,7 @@ function _RRR() { var e = document.createElement("script"); e.src = "https://cdn
       <br>
       <br>
       <br>
-      <br>
+
       <div class="d-flex justify-content-between align-items-center">
         <h2>Guitars</h2>
         <ol>

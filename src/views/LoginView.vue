@@ -29,6 +29,10 @@ export default {
 </script>
 
 <template>
+
+  <br>
+  <br>
+  <br>
   <div class="login">
     <form v-on:submit.prevent="submit()">
       <h1>Login</h1>

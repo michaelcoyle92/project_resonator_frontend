@@ -24,6 +24,9 @@ export default {
 </script>
 
 <template>
+  <br>
+  <br>
+  <br>
   <div class="signup">
     <form v-on:submit.prevent="submit()">
       <h1>Signup</h1>
