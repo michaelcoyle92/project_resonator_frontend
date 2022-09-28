@@ -435,8 +435,7 @@ ul.reverb-embedded-comparison-shopping-pages-vertical .reverb-embedded-compariso
   display: block;
   margin: 12px 0 12px 0;
   box-sizing: border-box;
-  padding: 0 10px 0 10px;
-  color: #333;
+  padding: 0 10px 0 10px color: #333;
   font-weight: bold;
   height: 36px;
   overflow: hidden;
